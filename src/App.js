@@ -59,8 +59,8 @@ function App() {
       </div>
 
       {/* Search box with tags */}
-      <div className="absolute top-[17%] left-[22%] border border-blue-300 w-[50%] h-[100%%] rounded-md shadow-lg flex items-center">
-        <div className="flex flex-wrap items-center bg-white w-[100%]">
+      <div className="absolute top-[17%] left-[22%] w-[50%] h-[100%%] shadow-lg flex items-center">
+        <div className="flex flex-wrap items-center bg-white w-[100%] rounded">
           {tags.map((tag, index) => (
             <div key={index} className="tag bg-[rgb(93,165,164)] text-white px-2 py-1 m-1 rounded-md flex items-center">
               {tag}
